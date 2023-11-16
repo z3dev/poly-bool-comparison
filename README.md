@@ -1,6 +1,6 @@
 This is a (very hacky) comparison of various polygon clipping algorithms.
 
-[shut up and take me to the damn thing](dissection)
+[shut up and take me to the damn thing](https://daef.github.io/poly-bool-comparison/dissection/)
 
 ## method
 
@@ -33,7 +33,19 @@ martinez_{[cgal](https://github.com/daef/poly-bool-comparison/tree/master/martin
 
 this is far from packed for re-use, but if you insist, the main dependencies should be node, graphicsmagick and inkscape
 
+graphicsmagick can be downloaded (source) and compiled into a set of command line utilities. See http://www.graphicsmagick.org/README.html
+
+inkscape can be downloaded and installed. See https://inkscape.org
+
 ## running
+
+install LTS versions of [npm](https://www.npmjs.com/) and [node.js](https://nodejs.org/en/)
+
+now run these commands inside the poly-bool-comparison directory
+```
+npm install
+npm run setup
+```
 
 to re-run everything try running `./run`... good luck ;)
 
